@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crear receta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ziBY8sMmlxT0o5l1iKVpBvSr-Ysll8g6nOpsVL5kwtLmLj1PVpe_Ah-T58BBjWsoFfM&usqp=CAU" alt="Logo">
+  </header>
+  <h1>Crear Receta</h1>
+  <main>
+  <div class="centrar">
+    <div>
+      <label for="paciente">Seleccionar Paciente:</label>
+      <select id="paciente">
+        <option value="">Seleccionar paciente</option>
+        <option value="Mirko Acevedo">Mirko Acevedo</option>
+        <option value="Jean Pierre Castro">Jean Pierre Castro</option>
+        <option value="Francisco Garcia">Francisco Garcia</option>
+        <option value="Ivan Jimenez">Ivan Jimenez</option>
+      </select>
+    </div>
+    <div>
+      <label for="item">Seleccionar Item:</label>
+      <select id="item"></select>
+    </div>
+    <div>
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad">
+    </div>
+    <div>
+      <label for="observacion">Observación:</label>
+      <input type="text" id="observacion">
+    </div>
+    <div>
+      <button id="agregar">Agregar</button>
+    </div>
+  </div>
+    <div>
+      <h2>Prescripcion</h2>
+      <table id="grilla">
+        <thead>
+          <tr>
+            <th>Medicamento</th>
+            <th>Cantidad</th>
+            <th>Observación</th>
+          </tr>
+        </thead>
+        <tbody id="grilla-body"></tbody>
+      </table>
+    </div>
+    <div style="text-align: center;">
+      <button  class="centrar"id="crearReceta">Crear receta</button>
+    </div>
+  </main>
+  <script src="script_medico.js"></script>
+</body>
+</html>

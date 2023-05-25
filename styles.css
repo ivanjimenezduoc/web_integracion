@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .login-container{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #items th, #items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #items th {
+    background-color: #f2f2f2;
+  }
+
+  #grilla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  #grilla th, #grilla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #grilla th {
+    background-color: #f2f2f2;
+  }
+
+  
+  #recetas-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #recetas-grid th, #recetas-grid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #recetas-grid th {
+    background-color: #f2f2f2;
+  }
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .resaltado {
+    background-color: red;
+    color: white;
+  }
+
+  .centrar{
+    
+      max-width: 400px;
+      margin: 0 auto;
+    
+    }
+
+
+    .recetas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+  }
+
+  .recetas-item {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
