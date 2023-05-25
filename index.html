@@ -55,15 +55,13 @@
           ) {
             window.location.href = "medico.html";
           } else if (
-            usuario === "paciente" &&
-            clave === "1234" &&
-            tipoUsuario === "Paciente"
+            username === "paciente" &&
+            password === "1234" &&
+            userType === "Paciente"
           ) {
-            // Redirigir a la página del paciente con el nombre del paciente en la URL
-            const url = `paciente.html?nombre=${usuario}`;
-            window.location.href = url;
-          } else {
-            alert("Credenciales inválidas. Inténtalo nuevamente.");
+            window.location.href = "paciente.html";
+          }else{
+                alert("Credenciales inválidas. Inténtalo nuevamente.");
           }
         });
     </script>
